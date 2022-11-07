@@ -1,0 +1,11 @@
+.banner__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-cursiva);
+    font-size: 5rem;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 40%;
+    text-align: center;
+    
+    width: 100%;
+}
