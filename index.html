@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Frutas & Frutos</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/logo.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
-    <link rel="stylesheet" href="./assets/css/banner/banner.css">
-    <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
-    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
-    
-
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
     <header class="cabecalho">
-        <img class="logo" src="./assets/img/logo.svg" alt="Imagem do logotipo da empresa" >
-        <nav  class="menu">
+        <img class="logo" src="./assets/img/logo.svg" alt="Imagem do logotipo da empresa">
+        <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__item"><a href="#" class="menu__link ativo">Início</a></li>
                 <li class="menu__item"><a href="#" class="menu__link">receitas</a></li>
@@ -33,12 +28,114 @@
             </ul>
         </nav>
     </header>
-    
-    <section class="banner">
-        <img class="banner__imagem" src="./assets/img/banner-principal.png" alt="Imagem do Banner Principal">
+
+    <section class="banner__imagem">
         <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2>
     </section>
-    
-</body>
-</html>
 
+    <section class="sobre">
+        <h2 class="sobre__titulo">Receitas para economizar e ganhar saúde</h2>
+        <p class="sobre__descricao">Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar
+            tempo e praticidade</p>
+    </section>
+
+    <section class="receitas">
+
+        <dialog class="receitas__modal">
+            <header>
+                <h3 class="modal__titulo">Nome da Receita</h3>
+                <button><i class="ph ph-x"></i></button>
+            </header>
+            <div>
+                <p>Texto receita.</p>
+            </div>
+        </dialog>        
+
+        <div class="receita">
+            <img class="receita__imagem" src="./assets/img/SalAbacate.svg" alt="Imagem da receita">
+            <div class="receita__conteudo">
+                <h3 class="receita__titulo">Tigela de abacate</h3>
+                <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                <button class="receita__botao">Ver receita</button>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img class="receita__imagem" src="./assets/img/salKiwi.svg" alt="Imagem da receita">
+            <div class="receita__conteudo">
+                <h3 class="receita__titulo">Salada de Kiwi</h3>
+                <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                <button class="receita__botao">Ver receita</button>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img class="receita__imagem" src="./assets/img/mixVegetal.svg" alt="Imagem da receita">
+            <div class="receita__conteudo">
+                <h3 class="receita__titulo">Mix de vegetais</h3>
+                <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                <button class="receita__botao">Ver receita</button>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img class="receita__imagem" src="./assets/img/pimentoes.svg" alt="Imagem da receita">
+            <div class="receita__conteudo">
+                <h3 class="receita__titulo">Pimentões à Juliana</h3>
+                <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                <button class="receita__botao">Ver receita</button>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img class="receita__imagem" src="./assets/img/oriental.svg" alt="Imagem da receita">
+            <div class="receita__conteudo">
+                <h3 class="receita__titulo">Prato Oriental</h3>
+                <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                <button class="receita__botao">Ver receita</button>
+            </div>
+        </div>
+
+        <div class="receita">
+            <img class="receita__imagem" src="./assets/img/beterrabas.svg" alt="Imagem da receita">
+            <div class="receita__conteudo">
+                <h3 class="receita__titulo">Beterabas assadas</h3>
+                <p class="receita__descricao">Receita refrescante e cheia de vitaminas para seu café da manhã.</p>
+                <button class="receita__botao">Ver receita</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="quem-somos">
+        <h2 class="quem-somos__titulo">Quem somos</h2>
+        <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+        <div class="pessoas">
+            <div class="pessoa">
+                <img class="pessoa__imagem pessoa__imagem--robertra" src="./assets/img/Roberta.png"
+                    alt="Imagem da  Roberta">
+                <h3 class="pessoa__titulo">Roberta</h3>
+                <p class="pessoa__funcao">Conteúdo</p>
+            </div>
+
+            <div class="pessoa">
+                <img class="pessoa__imagem pessoa__imagem--marcela" src="./assets/img/Marcela.png"
+                    alt="Imagem da  Marcela">
+                <h3 class="pessoa__titulo">Marcela</h3>
+                <p class="pessoa__funcao">Chef de cozinha</p>
+            </div>
+
+            <div class="pessoa">
+                <img class="pessoa__imagem pessoa__imagem--andreia" src="./assets/img/Andreia.png"
+                    alt="Imagem da Andreia">
+                <h3 class="pessoa__titulo">Andréia</h3>
+                <p class="pessoa__funcao">Pequena produtora</p>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p class="rodape__contato">Contato: contato@frutasefrutos.com</p>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>

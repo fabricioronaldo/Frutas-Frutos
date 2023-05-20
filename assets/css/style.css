@@ -1,8 +1,40 @@
+@import url("./menu/menu.css");
+@import url("./menu/menu-lista.css");
+@import url("./menu/menu-item.css");
+@import url("./menu/menu-link.css");
+@import url("./banner/banner.css");
+@import url("./banner/banner-imagem.css");
+@import url("./banner/banner-titulo.css");
+@import url("./sobre/sobre-descricao.css");
+@import url("./sobre/sobre-titulo.css");
+@import url("./sobre/sobre.css");
+@import url("./receitas/receita-botao.css");
+@import url("./receitas/receita-conteudo.css");
+@import url("./receitas/receita-descricao.css");
+@import url("./receitas/receita-imagem.css");
+@import url("./receitas/receita-modal.css");
+@import url("./receitas/receita-titulo.css");
+@import url("./receitas/receita.css");
+@import url("./receitas/receitas.css");
+@import url("./quem-somos/quem-somos.css");
+@import url("./quem-somos/quem-somos-titulo.css");
+@import url("./quem-somos/quem-somos-descricao.css");
+@import url("./pessoas/pessoas.css");
+@import url("./pessoas/pessoa.css");
+@import url("./pessoas/pessoa-imagem.css");
+@import url("./pessoas/pessoa-titulo.css");
+@import url("./pessoas/pessoa-funcao.css");
+@import url("./rodape/rodape.css");
+@import url("./rodape/rodape-contato.css");
+
 :root {
     --cinza: #808080;
     --preto-claro: #333333;
     --branco: #fdfdfd;
     --fonte-cursiva: Pacifico;
+    --marrom: #8d0606;
+    --cinza-escuro: #e5e5e5;
+    
 
 }
 

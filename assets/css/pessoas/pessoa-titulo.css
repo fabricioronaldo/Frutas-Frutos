@@ -1,0 +1,6 @@
+.pessoa__titulo {
+    font-family: var(--fonte-cursiva);
+    color: var(--marrom);
+    padding: 1rem 0;
+    font-size: 28px;
+}

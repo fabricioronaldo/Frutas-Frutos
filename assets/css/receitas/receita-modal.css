@@ -1,0 +1,45 @@
+.receitas__modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.receitas__modal {
+
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 1rem rgb(0 0 0 / .5);
+
+}
+
+.receitas__modal h3 {
+    font-size: 2rem;
+}
+
+.receitas__modal button {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    color: var(--cinza);
+    cursor: pointer;
+}
+
+.receitas__modal header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .receitas__modal {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas__modal {
+        width: 60%;
+        height: 60%;
+    }
+}
