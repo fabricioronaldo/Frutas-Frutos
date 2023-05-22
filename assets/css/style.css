@@ -1,4 +1,5 @@
 @import url("./menu/menu.css");
+@import url("./menu/menu-button.css");
 @import url("./menu/menu-lista.css");
 @import url("./menu/menu-item.css");
 @import url("./menu/menu-link.css");
@@ -25,6 +26,7 @@
 @import url("./pessoas/pessoa-titulo.css");
 @import url("./pessoas/pessoa-funcao.css");
 @import url("./rodape/rodape.css");
+@import url("./rodape/contato-modal.css");
 @import url("./rodape/rodape-contato.css");
 
 :root {

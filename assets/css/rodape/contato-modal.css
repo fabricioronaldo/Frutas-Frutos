@@ -1,0 +1,137 @@
+.contato__modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.contato__modal {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 1rem rgb(0 0 0 / .5);
+}
+
+.contato__modal h3 {
+    font-size: 2rem;
+}
+
+.contato__modal button {
+    border: none;
+    background: transparent;
+    font-size: 2rem;
+    color: var(--cinza);
+    cursor: pointer;
+}
+
+.contato__modal button:hover {
+    color: var(--marrom);
+    
+}
+
+.contato__modal > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+
+.contato__content {
+    margin-top: 2rem;
+}
+.contato__form {
+    display: grid;
+    gap: 1rem;
+}
+
+.contato__form input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: .7rem 0;
+}
+
+.contato__content .contato__button {
+    border: none;
+    background: var(--marrom);
+    font-size: 1.5rem;
+    color: var(--branco);
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin-top: 3rem;
+}
+
+.contato__content .contato__button:hover {
+    background: #610909;
+    color: var(--branco);
+}
+
+@media screen and (min-width: 0) {
+    .contato__modal {
+        width: 80%;
+        height: 80%;
+    }
+    
+    .contato__form {
+        grid-template-columns: auto;
+    }
+
+    .l-email {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .l-senha {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    
+    .l-endereco {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end:2 ;
+    }
+    
+    .l-cidade {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end:3 ;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contato__modal {
+        width: 60%;
+        height: 50%;
+    }
+
+    .contato__form {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .l-email {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .l-senha {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    
+    .l-endereco {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end:2 ;
+    }
+    
+    .l-cidade {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end:3 ;
+    }
+}

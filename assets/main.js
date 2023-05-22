@@ -1,25 +1,18 @@
 const botao = document.querySelectorAll(".receita__botao");
 const receita = document.querySelectorAll(".receita__titulo");
-const modal = document.querySelector("dialog");
+const modal = document.querySelector(".receitas__modal");
 const botaoFechar = document.querySelector("dialog button");
+const modalFechar = document.querySelector(".modal__fechar");
 const modalTitulo = document.querySelector(".modal__titulo");
-console.log(botao);
-console.log(receita);
-console.log(modalTitulo);
+const modalContato = document.querySelector(".contato__modal");
+console.log(modalContato);
+const contatoButton = document.querySelector(".rodape__contato")
+console.log(contatoButton);
 var tituloReceita = [];
 
 
 for (var i = 0; i < receita.length; i++) {
     tituloReceita[i] = receita[i].innerHTML;
-}
-console.log(typeof tituloReceita);
-var o = JSON.stringify(tituloReceita);
-
-console.log(tituloReceita);
-
-function valor(indice){
-    console.log(indice);
-    modalTitulo.innerHTML = tituloReceita[indice];
 }
 
 for(var i = 0; i < botao.length; i++) {
@@ -32,10 +25,18 @@ for(var i = 0; i < botao.length; i++) {
     });
 }
 
-
 botaoFechar.onclick = function() {
     modal.close()
 }
+
+modalFechar.onclick = function() {
+    modalContato.close()
+}
+
+contatoButton.addEventListener("click", function(){
+    modalContato.showModal();
+});
+
 
 //[0].childNodes[3].childNodes[1]
 

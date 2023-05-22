@@ -1,5 +1,15 @@
 .rodape__contato {
-    color: var(--branco);
-    font-size: 22px;
+    padding: 1rem;
+    color: var(--marrom);
+    font-size: 1.4rem;
+    border: 2px solid var(--marrom);
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: right;
 
+}
+
+.rodape__contato:hover {
+    background-color: var(--marrom);
+    color: var(--branco);
 }

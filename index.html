@@ -27,6 +27,7 @@
                 <li class="menu__item"><a href="#" class="menu__link">Comunidade</a></li>
             </ul>
         </nav>
+        <button class="menu__button"><i class="ph ph-list"></i></button>
     </header>
 
     <section class="banner__imagem">
@@ -49,7 +50,7 @@
             <div>
                 <p>Texto receita.</p>
             </div>
-        </dialog>        
+        </dialog>
 
         <div class="receita">
             <img class="receita__imagem" src="./assets/img/SalAbacate.svg" alt="Imagem da receita">
@@ -133,7 +134,43 @@
         </div>
     </section>
     <footer class="rodape">
-        <p class="rodape__contato">Contato: contato@frutasefrutos.com</p>
+        <button class="rodape__contato">Contato</button>
+
+        <dialog class="contato__modal">
+            <header>
+                <h3 class="modal__titulo">Formulário de Contato</h3>
+                <button class="modal__fechar"><i class="ph ph-x"></i></button>
+            </header>
+            <div class="contato__content">
+                <form class="contato__form" action="">
+                    <div class="l-email">
+                        <label for="email">Email
+                            <input type="email" name="email" id="email" placeholder="Informe seu email - Ex:email@email.com.br">
+                        </label>
+                    </div>
+                    <label class="l-senha" for="senha">Senha
+                        <input type="password" name="senha" id="senha" placeholder="Informe sua senha - Ex: fg253432"></label>
+
+                    <label class="l-endereco" for="endereco">Endereço
+                        <input type="text" name="endereco" placeholder="Informe o endereço">
+                    </label>
+
+                    <label class="l-cidade" for="cidade">Cidade
+                        <input type="text" name="cidade" placeholder="Informe a Cidade">
+                    </label>
+
+                    <label class="l-estado" for="estado">Estado
+                        <input type="text" name="estado" placeholder="Infome o Estado">
+                    </label>
+
+                    <label class="l-cep" for="cep">CEP
+                        <input type="text" name="cep" placeholder="Informe o CPE">
+                    </label>
+                    
+                </form>
+                <button class="contato__button" type="submit">Enviar</button>
+            </div>
+        </dialog>
     </footer>
     <script src="assets/main.js"></script>
 </body>

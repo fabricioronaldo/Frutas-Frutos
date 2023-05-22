@@ -22,6 +22,10 @@
     cursor: pointer;
 }
 
+.receitas__modal button:hover {
+    color: var(--marrom);
+}
+
 .receitas__modal header {
     display: flex;
     justify-content: space-between;
