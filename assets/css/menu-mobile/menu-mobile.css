@@ -1,16 +1,18 @@
 .menu__mobile {
     //display:none;
+    background: #f9f9f9;
 }
 
 .mobile__lista {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
     padding: 1rem;
 }
 
 .mobile__item {
     list-style: none;
+    padding: .3rem;
 }
 
 .mobile__link{
@@ -25,4 +27,24 @@
 
 .mobile__link:hover {
     text-decoration: underline;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (min-width:0) {
+    .menu__mobile {
+        display:none;
+    }
+    .active {
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .menu__mobile {
+        display:none;
+    }
+    
 }

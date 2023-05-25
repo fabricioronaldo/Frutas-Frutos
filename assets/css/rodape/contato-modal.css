@@ -66,6 +66,7 @@
     color: var(--branco);
 }
 
+
 @media screen and (min-width: 0) {
     .contato__modal {
         width: 80%;

@@ -37,7 +37,22 @@ contatoButton.addEventListener("click", function(){
     modalContato.showModal();
 });
 
+const buttonMenu = document.querySelector(".menu__button");
+console.log(buttonMenu);
+const menuMobile = document.querySelector(".menu__mobile");
+console.log(menuMobile);
+const buttonIcon = document.querySelector(".ph-list");
 
-//[0].childNodes[3].childNodes[1]
+buttonMenu.addEventListener("click", function() {
+    menuMobile.classList.toggle('active')
+    if (buttonIcon.classList.contains('ph-list')){
+        buttonIcon.classList.remove('ph-list');
+        buttonIcon.classList.add('ph-x');
+    } else {
+       buttonIcon.classList.remove('ph-x'); 
+        buttonIcon.classList.add('ph-list');
+    }
 
-//[1].childNodes[3].childNodes[1].childNodes[0]
+});
+
+
