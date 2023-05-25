@@ -1,0 +1,28 @@
+.menu__mobile {
+    //display:none;
+}
+
+.mobile__lista {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.mobile__item {
+    list-style: none;
+}
+
+.mobile__link{
+    color: var(--cinza);
+    text-decoration: none;
+}
+
+.mobile__link.ativo {
+    color: var(--preto-claro);
+    font-weight: bold;
+}
+
+.mobile__link:hover {
+    text-decoration: underline;
+}

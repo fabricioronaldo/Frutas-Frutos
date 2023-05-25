@@ -2,10 +2,16 @@
     .menu {
         display: none;
     }
+    
+
+
 }
 
 @media screen and (min-width: 768px) {
     .menu {
         display: block;
+    }
+    .menu__mobile {
+        display: none;
     }
 }
